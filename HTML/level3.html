@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://kit.fontawesome.com/5868d1e0f5.js"></script>
+        <link rel="title-icon" type="image/png" href="../Image/title-icon.jpg"/>
+        <title> Math Game </title>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link href="../CSS/level3.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <section class="result-container">
+            <div class="result">Score: <span id="score-value">0</span></div>
+            <div class="result">Hits: <span id="hit-value">0</span></div>
+            <div class="result">Miss: <span id="miss-value">0</span></div>
+            <div class="result-time">Time: <span id="time">150</span></div>
+        </section>
+
+        <section class="object-container">
+            <div id="box1">
+                <img src="../Image/moon.png" style="width:7%">
+                <div id="container1" onclick="resultCalc(this.id)">0</div>
+            </div>
+
+            <div id="box2">
+                <img src="../Image/moon.png" style="width:7%">
+                <div id="container2" onclick="resultCalc(this.id)">0</div>
+            </div>
+
+            <div id="box3">
+                <img src="../Image/moon.png" style="width:7%">
+                <div id="container3" onclick="resultCalc(this.id)">0</div>
+            </div>
+
+            <div id="box4">
+                <img src="../Image/moon.png" style="width:7%">
+                <div id="container4" onclick="resultCalc(this.id)">0</div>
+            </div>
+
+            <div id="box5">
+                <img src="../Image/moon.png" style="width:7%">
+                <div id="container5" onclick="resultCalc(this.id)">0</div>
+            </div>
+
+            <div id="box6">
+                <img src="../Image/sun.png" style="width:7%">
+                <div id="container6" onclick="resultCalc(this.id)">0</div>
+            </div>
+
+            <div id="box7">
+                <img src="../Image/sun.png" style="width:7%">
+                <div id="container7" onclick="resultCalc(this.id)">0</div>
+            </div>
+
+            <div id="box8">
+                <img src="../Image/sun.png" style="width:7%">
+                <div id="container8" onclick="resultCalc(this.id)">0</div>
+            </div>
+
+            <div id="box9">
+                <img src="../Image/sun.png" style="width:7%">
+                <div id="container9" onclick="resultCalc(this.id)">0</div>
+            </div>
+
+            <div id="box10">
+                <img src="../Image/sun.png" style="width:7%">
+                <div id="container10" onclick="resultCalc(this.id)">0</div>
+            </div>
+        </section>
+
+        <div class="question-container" id="cursor"> </div>
+
+        <div id="result-board-container"></div>
+        <script src="../JS/level3.js"></script>
+        <script src="../JS/info.js"></script>
+    </body>
+</html>

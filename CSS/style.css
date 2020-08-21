@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../Image/bg.jpg);
+    /* background-image: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-game
+{
+    display: flex;
+}
+
+.game-name
+{
+     font-size: 40px;
+     flex: 12;
+     text-align: center;
+     color: lightblue;
+}
+
+#space
+{
+    color: lightcoral;
+}
+
+.instruction
+{
+    color: lightyellow;
+}
+
+#music-icon > i
+{
+    flex: 1;
+    font-size: 100px;
+    color: lightcyan;
+}
+
+.level-choice
+{
+    display: flex;
+    padding: 50px 0px 20px 0px;
+    margin: 30px 0px 30px 0px;
+}
+
+.add-level
+{
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.substract-level
+{
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.division-level
+{
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.level
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: aquamarine;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.level:hover
+{
+    color: lightgoldenrodyellow;
+}
+
+.example
+{
+    color: yellowgreen;
+}
+
+.add-level > p, .substract-level > p, .division-level > p
+{
+    font-size: 20px;    
+}
+
+.main   
+{
+    display: flex;
+}
+
+.start, .rules
+{
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: burlywood;
+    font-size: 50px;
+}
+
+.start:hover
+{
+    color: white;
+    font-size: 65px;
+}
+
+.rules:hover
+{
+    color: chocolate;
+    font-size: 65px;
+}
+
+.image::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image-container
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    padding-top: 80px;
+}

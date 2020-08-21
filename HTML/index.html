@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://kit.fontawesome.com/5868d1e0f5.js"></script>
+    <link rel="title-icon" type="image/png" href="../Image/title-icon.jpg"/>
+    <title> Math Game </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <header class="header-game">
+          <div class="game-name">
+              <h1> <span id="space">space</span> Math Game </h1>
+              <p class="instruction"> Click on level below to play </p>
+          </div>
+
+          <a href="#" id="music-icon" onclick="changeIcon()"><i class="fas fa-volume-up"></i></a>
+          
+      </header>
+
+      <section class="level-choice">
+            <div class="add-level">
+                <a href="#" class="level">
+                    <p> LEVEL 1 </p>
+                    <h3> ADD </h3>
+                </a>  
+                <p> <span class="example">Example:</span> 8 + 2 = 10 </p>
+            </div>
+
+            <div class="substract-level">
+                <a href="#" class="level">
+                    <p> LEVEL 2 </p>
+                    <h3> SUBSTRACT </h3>
+                </a>  
+                <p> <span class="example">Example:</span>  8 - 2 = 6 </p>
+            </div>
+
+            <div class="division-level">
+                <a href="#" class="level">
+                    <p> LEVEL 3 </p>
+                    <h3> DIVISION </h3>
+                </a>
+                <p> <span class="example">Example:</span>  8 / 2 = 4 </p>
+            </div>
+      </section>
+
+      <section class="main">
+          <a href="info.html" class="start"> START </h1>
+          <a href="#" class="rules"> RULES </a>
+      </section>
+
+      <section class="image">
+        <div class="image-container"><img src="../Image/earth.jpg" alt="earth" class="image-dash-board" style="width: 70%"></div>
+        <div class="image-container"><img src="../Image/moon.png" alt="moon" class="image-dash-board" style="width: 70%"></div>
+        <div class="image-container"><img src="../Image/sun.png" alt="sun" class="image-dash-board" style="width: 70%"></div>
+      </section>
+      <script src="../JS/script.js"></script>
+  </body>
+</html>

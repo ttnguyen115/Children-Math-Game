@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../Image/bg.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.result-container
+{
+    display: inline-block;
+}
+
+.result
+{
+    text-transform: uppercase;
+    color: lightyellow;
+    font-size: 2rem;
+}
+
+.result-time
+{
+    text-transform: uppercase;
+    color: lightyellow;
+    font-size: 2rem;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10
+{
+    position: fixed;
+    width: 2000px;
+    height: 2000px;
+    cursor: pointer;
+}
+
+.question-container
+{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border: 2px solid lightgoldenrodyellow;
+    box-sizing: border-box;
+    transition: 0.1s;
+    transform: translate(-50%, -50%);
+    /* border-radius: 50%; */
+    pointer-events: none;
+    background-color: lightseagreen;
+}
+
+#cursor
+{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#container1, #container2, #container3, #container4, #container5, #container6, #container7, #container8, #container9, #container10
+{
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    color: brown;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    left: 70px;
+    top: 70px;
+    z-index: 100;
+} 
+
+#startreset
+{
+    width: 80px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* margin: 0 auto; */
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    font-weight: bold;
+}
+
+#startreset:hover
+{
+    background-color: #9C89F6;
+    color: white;
+}
+
+#result-board-container
+{
+    height: 450px;
+    width:  700px;
+    background: linear-gradient(#F3CA6B, #F3706C);
+    color: lightcyan;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    z-index: 1000;
+    display: none;
+}

@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../Image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-game
+{
+    display: flex;
+}
+
+.game-name
+{
+     font-size: 40px;
+     flex: 12;
+     text-align: center;
+     color: lightblue;
+}
+
+#space
+{
+    color: lightcoral;
+}
+
+.instruction
+{
+    color: lightyellow;
+}
+
+#music-icon > i
+{
+    flex: 1;
+    font-size: 100px;
+    color: lightcyan;
+}
+
+.info-container
+{
+    width: 1000px;
+    margin: auto;
+    background: lightcyan;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+form
+{
+    text-align: center;
+    padding: 120px;
+    border-color: 1px dotted white;
+}
+
+.label
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+}
+
+input, select
+{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#play
+{
+    text-align: center;
+    background: brown;
+    padding: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: blanchedalmond
+}
+
+#play:hover
+{
+    background-color: grey;
+}
